@@ -6,8 +6,11 @@ npm i ton-compiler-groz
 
 ### Required
 ```
-git clone https://github.com/newton-blockchain/ton.git
+git clone --recurse-submodules https://github.com/ton-blockchain/ton.git
 ```
+
+###Install Fift and FunC
+- https://ton.org/docs/#/compile
 
 ### Example compile
 
@@ -23,9 +26,6 @@ await compiler.getCell('..code func')
 // or
 await compiler.compileCell(['contract.fc'], './contract.cell')
 ```
-
-## TON official repository
-- https://github.com/newton-blockchain/ton.git
 
 ## Documentation
 - https://www.tonspace.co/
