@@ -1,7 +1,7 @@
 # The TON func smart-contract compiler
 
 ```
-npm -i ton-compiler-groz
+npm i ton-compiler-groz
 ```
 
 ### Required
@@ -14,11 +14,14 @@ git clone https://github.com/newton-blockchain/ton.git
 ```js
 const compiler = new TonCompiler({
   smartcontLibs: ['<ton directory>/crypto/smartcont/stdlib.fc'],
-  fiftLib: '<ton directory>/crypto/fift/lib'
+  fiftLib: '<ton directory>/crypto/fift/lib',
+  fift: '/usr/bin/fift',
+  func: '/usr/bin/func',
+  tmpDir: '/tmp'
 })
 await compiler.getCell('..code func')
 // or
-await compiler.compileCell(['contract.fc'], 'contract')
+await compiler.compileCell(['contract.fc'], './contract.cell')
 ```
 
 ## TON official repository
