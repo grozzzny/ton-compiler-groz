@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "author": "Dmitriy Groznyy <grozzzny@gmail.com>",
   "main": "dist/TonCompiler.js",
+  "types": "dist/TonCompiler.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
