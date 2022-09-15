@@ -9,7 +9,7 @@ npm i ton-compiler-groz
 git clone --recurse-submodules https://github.com/ton-blockchain/ton.git
 ```
 
-###Install Fift and FunC
+### Install Fift and FunC
 - https://ton.org/docs/#/compile
 
 ### Example compile
