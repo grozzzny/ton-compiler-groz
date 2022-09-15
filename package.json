@@ -1,7 +1,7 @@
 {
   "name": "ton-compiler-groz",
   "description": "The TON func smart-contract compiler",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Dmitriy Groznyy <grozzzny@gmail.com>",
   "main": "dist/TonCompiler.js",
   "types": "dist/TonCompiler.d.ts",
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/grozzzny/ton-compiler-groz"
   },
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "devDependencies": {
     "@types/node": "^16.11.10",
